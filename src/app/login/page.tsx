@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import SignupForm from "@/components/SignupForm";
+import LoginForm from "@/components/LoginForm";
 
-export default function SignupPage() {
+export default function LoginPage() {
   return (
     <main className="min-h-screen flex flex-col lg:flex-row">
       {/* Left banner */}
@@ -21,7 +21,7 @@ export default function SignupPage() {
 
       {/* Right form */}
       <section className="w-full lg:w-1/2 flex items-start lg:items-center justify-center px-6 lg:px-10">
-        <SignupForm />
+        <LoginForm />
       </section>
     </main>
   );
